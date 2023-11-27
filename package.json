@@ -1,0 +1,21 @@
+{
+    "name": "namespaces",
+    "version": "1.0.0",
+    "description": "namespaces in typescript",
+    "main": "index.ts",
+    "type": "module",
+    "scripts": {
+        "watch:typescript": "tsc --watch --outFile dist/index.js src/index.ts",
+        "start:node": "node --watch dist/index.js"
+    },
+    "keywords": [
+        "typescript",
+        "namespace",
+        "node"
+    ],
+    "author": "chntrkss",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^5.3.2"
+    }
+}
